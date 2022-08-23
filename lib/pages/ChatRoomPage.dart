@@ -63,8 +63,8 @@ class _ChatRoomPageState extends State<ChatRoomPage> {
           children: [
             CircleAvatar(
               backgroundColor: Colors.grey,
-              // backgroundImage:
-              //    NetworkImage(widget.targetuser.profilepic.toString()),
+               backgroundImage:
+                  NetworkImage(widget.targetuser.profilepic.toString()),
             ),
             SizedBox(
               height: 20,

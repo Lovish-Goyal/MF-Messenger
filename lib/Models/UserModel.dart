@@ -18,7 +18,7 @@ class UserModel {
       "uid": uid,
       "fullname": fullname,
       "email": email,
-      "profielpic": profilepic,
+      "profilepic": profilepic,
     };
   }
 }

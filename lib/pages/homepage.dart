@@ -93,9 +93,9 @@ class _HomePageState extends State<HomePage> {
                                           }));
                                         },
                                         leading: CircleAvatar(
-                                            // backgroundImage: NetworkImage(
-                                            //     targetUser.profilepic
-                                            //         .toString())
+                                             backgroundImage: NetworkImage(
+                                                 targetUser.profilepic
+                                                     .toString())
                                             ),
                                         title: Text(
                                             targetUser.fullname.toString()),
